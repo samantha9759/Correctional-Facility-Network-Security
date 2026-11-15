@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Correctional Facility Network Security Architecture
 
 ## Project Overview
