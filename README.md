@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Correctional Facility Network Security Architecture
 
 ## Project Overview
@@ -93,3 +94,7 @@ All network zones and recommendations are conceptual. No real facility informati
 Cybersecurity and Information Assurance
 
 GitHub: [samantha9759](https://github.com/samantha9759)
+=======
+# Correctional-Facility-Network-Security
+Correctional facility network security architecture and modernization project
+>>>>>>> 769729f5b1cd8bf4e154cf871883dce6dd1ccc1c
