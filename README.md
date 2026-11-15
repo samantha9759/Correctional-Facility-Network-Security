@@ -1,4 +1,4 @@
-# Correctional Facility Network Security Architecture
+# Correctional Facility Network Security
 
 ## Project Overview
 
@@ -16,6 +16,7 @@ This project combines cybersecurity concepts with operational experience in corr
 - Map security recommendations to recognized frameworks.
 - Evaluate cybersecurity threats and operational risks.
 - Develop a proposed $50,000 modernization budget.
+- Perform a hands-on Windows security assessment using PowerShell.
 
 ## Architecture Overview
 
@@ -31,6 +32,32 @@ The proposed design separates network resources into six conceptual security zon
 | VLAN 60 | Guest and Vendor Access |
 
 See the [Network Architecture Diagram](diagrams/Network-Architecture.md).
+
+## Hands-On Windows Security Assessment
+
+This project also includes a read-only PowerShell assessment script that collects security configuration information from a Windows endpoint.
+
+The assessment checks:
+
+- Operating system information
+- Windows Firewall profiles
+- Microsoft Defender status
+- Drive encryption status
+- Local administrator group membership
+- Windows audit policy
+- Windows Update service status
+
+### Assessment Files
+
+- [PowerShell Assessment Script](scripts/Invoke-CorrectionalSecurityAssessment.ps1)
+- [Consolidated Security Assessment](reports/Consolidated-Security-Assessment.md)
+- [Patch Management Finding](reports/Patch-Management-Finding.md)
+- [Account Security Finding](reports/Account-Security-Finding.md)
+- [Audit Policy Finding](reports/Audit-Policy-Finding.md)
+- [Security Findings Register](reports/Security-Findings-Register.csv)
+- [Sanitized Assessment Evidence](evidence/Windows-Security-Assessment.csv)
+
+The script is designed for read-only assessment and exports findings to CSV for documentation and review.
 
 ## Project Documentation
 
@@ -73,6 +100,9 @@ See the [Network Architecture Diagram](diagrams/Network-Architecture.md).
 
 ## Skills Demonstrated
 
+- PowerShell scripting
+- Windows security assessment
+- Endpoint security review
 - Network security architecture
 - Vulnerability assessment
 - Cybersecurity risk analysis
@@ -82,18 +112,18 @@ See the [Network Architecture Diagram](diagrams/Network-Architecture.md).
 - Technical documentation
 - Security project planning
 
-## Project Scope
+## Project Scope and Disclaimer
 
-This is a hypothetical educational project. It does not represent the actual network, equipment, security procedures, or configurations of any correctional facility.
+This is a hypothetical educational project combined with a personal Windows endpoint assessment. It does not represent the actual network, equipment, security procedures, or configurations of any correctional facility.
 
-All network zones and recommendations are conceptual. No real facility information is included.
+The network zones and recommendations are conceptual. No real facility information is included.
+
+The endpoint assessment is a point-in-time review and is not a penetration test or compliance certification.
 
 ## Author
 
 Cybersecurity and Information Assurance
 
 GitHub: [samantha9759](https://github.com/samantha9759)
-=======
-# Correctional-Facility-Network-Security
-Correctional facility network security architecture and modernization project
->>>>>>> 769729f5b1cd8bf4e154cf871883dce6dd1ccc1c
+
+

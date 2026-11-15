@@ -1,0 +1,7 @@
+"Finding","Severity","Status","Recommended_Action"
+"Windows Update and ESU","High","Needs Investigation","Verify ESU enrollment and supported security update coverage"
+"Drive Encryption","Medium","Needs Review","Evaluate BitLocker or another supported encryption solution"
+"Administrator Privileges","Informational","Review","Apply least privilege where practical"
+"Windows Audit Logging","Medium","Needs Improvement","Evaluate additional auditing and centralized logging"
+"Windows Firewall","Pass","Enabled","Continue monitoring firewall profiles"
+"Microsoft Defender","Pass","Enabled","Continue monitoring endpoint protection"
